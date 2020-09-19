@@ -47,7 +47,7 @@ function Hours() {
           </tr>
           <tr>
             <td>Sat</td>
-            <td>11am - 2:30pm</td>
+            <td>11am - 12pm</td>
             <td>4:30pm - 9:30pm</td>
             <td>4:30pm - 7pm</td>
           </tr>
