@@ -4,30 +4,33 @@ function Header() {
   return (
     <header id="header">
       <div className="logo">
-        <span className="icon fa-gem"></span>
+        <i className="fas fa-fish fa-2x"></i>
       </div>
       <div className="content">
         <div className="inner">
           <h1>Umami Sushi</h1>
           <p>
-            A fully responsive site template designed by{" "}
-            <a href="https://html5up.net">HTML5 UP</a> and released
-            <br />
-            for free under the{" "}
-            <a href="https://html5up.net/license">Creative Commons</a> license.
+            <a
+              id="order-online"
+              class="w3-button umami-color"
+              href="https://www.toasttab.com/umami-sushi-tx/v3"
+              target="_blank"
+            >
+              ORDER ONLINE
+            </a>
           </p>
         </div>
       </div>
       <nav>
         <ul>
           <li>
-            <a href="#intro">Intro</a>
+            <a href="#menu">Menu</a>
           </li>
           <li>
-            <a href="#work">Work</a>
+            <a href="#photos">Photos</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#hours">Hours</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
