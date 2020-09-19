@@ -1396,7 +1396,7 @@ body.is-preload #bg:before {
   position: relative;
   margin-top: 3.5rem;
 }
-
+/* 
 #header > *:before {
   content: "";
   display: block;
@@ -1406,7 +1406,7 @@ body.is-preload #bg:before {
   width: 1px;
   height: calc(3.5rem + 1px);
   background: #ffffff;
-}
+} */
 
 #header > :first-child {
   margin-top: 0;
@@ -1422,6 +1422,9 @@ body.is-preload #bg:before {
   line-height: 5.5rem;
   border: solid 1px #ffffff;
   border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #header .logo .icon:before {
