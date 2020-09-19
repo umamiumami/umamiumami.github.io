@@ -4,7 +4,6 @@ import LogoImage from "../assets/logo_white.svg";
 function Hours() {
   return (
     <article id="about">
-      <img className="image right" src={LogoImage} alt="logo" />
       <h2 className="major">Hours</h2>
       <table>
         <thead>
@@ -66,6 +65,7 @@ function Hours() {
           </tr>
         </tfoot> */}
       </table>
+      <img className="image right" src={LogoImage} alt="logo" />
     </article>
   );
 }

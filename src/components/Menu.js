@@ -10,7 +10,6 @@ function Menu() {
   }
   return (
     <article id="intro">
-      <img className="image right" src={LogoImage} alt="logo" />
       <h2 className="major">Menu</h2>
       <h5>
         <a href={MenuFile} target="_blank" rel="noopener noreferrer">
@@ -30,6 +29,7 @@ function Menu() {
           />
         ))}
       </Document>
+      <img className="image right" src={LogoImage} alt="logo" />
     </article>
   );
 }
