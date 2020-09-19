@@ -28,10 +28,10 @@ function Header() {
             <a href="#intro">Menu</a>
           </li>
           <li>
-            <a href="#photos">Photos</a>
+            <a href="#work">Photos</a>
           </li>
           <li>
-            <a href="#hours">Hours</a>
+            <a href="#about">Hours</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

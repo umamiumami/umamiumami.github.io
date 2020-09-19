@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
 import MenuFile from "../assets/menu.pdf";
+import LogoImage from "../assets/logo_white.svg";
 
 function Menu() {
   const [numPages, setNumPages] = useState(null);
@@ -9,6 +10,7 @@ function Menu() {
   }
   return (
     <article id="intro">
+      <img className="image right" src={LogoImage} alt="logo" />
       <h2 className="major">Menu</h2>
       <h5>
         <a href={MenuFile} target="_blank" rel="noopener noreferrer">
