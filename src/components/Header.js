@@ -12,8 +12,9 @@ function Header() {
           <p>
             <a
               id="order-online"
-              class="w3-button umami-color"
+              className="w3-button umami-color"
               href="https://www.toasttab.com/umami-sushi-tx/v3"
+              rel="noopener noreferrer"
               target="_blank"
             >
               ORDER ONLINE
@@ -24,7 +25,7 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#menu">Menu</a>
+            <a href="#intro">Menu</a>
           </li>
           <li>
             <a href="#photos">Photos</a>
