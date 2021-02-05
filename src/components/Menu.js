@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
-import MenuFile from "../assets/menu.pdf";
+import MenuFile from "../assets/menu-new.pdf";
 import LogoImage from "../assets/logo_white.svg";
 
 function Menu() {
